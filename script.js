@@ -1,4 +1,9 @@
-const add = (a, b) => a + b;
-const subtract = (a, b) => a - b;
-const multiply = (a, b) => a * b;
-const divide = (a, b) => a / b;
+const add = (num1, num2) => num1 + num2;
+const subtract = (num1, num2) => num1 - num2;
+const multiply = (num1, num2) => num1 * num2;
+const divide = (num1, num2) => num1 / num2;
+
+// console.log(add(1, 2))
+// console.log(subtract(1, 2))
+// console.log(multiply(5, 2))
+// console.log(divide(5, 2))
