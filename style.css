@@ -4,29 +4,35 @@
   box-sizing: border-box;
 }
 
-.calculator {
-  height: 500px;
-}
-
 .container {
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 }
 
 button {
   padding: 30px;
   font-size: 24px;
-  width: 100px;
+  flex-grow: 1;
+  width: 25%;
 }
 
-.rows {
-  width: 200px;
+.row {
+  width: 400px;
+  display: flex;
+}
+
+.row-last {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
 }
 
 .equal {
-  width: 210px;
-  background-color: rgba(127, 255, 212, 0.403);
+  width: 50%;
+  background-color: rgba(127, 255, 161, 0.353);
 }
+
+
